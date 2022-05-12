@@ -4,8 +4,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     text-decoration: none;
+    overflow: hidden;
 }
 
 html{
@@ -15,7 +16,6 @@ html{
 body{
     font-size: 100%;
     background: linear-gradient(68.15deg, #4F4F4F 2.62%, #2C6C59 85.61%);
-    height: relative;
 }
 
 .cabecalho{
@@ -164,7 +164,7 @@ footer{
     color: white;
 }
 
-@media (max-width: 500px) {
+@media screen (max-width: 500px) {
     .principal {
         display: flex;
         flex-direction: column-reverse;
